@@ -2,18 +2,23 @@
 
 Alguns testes usando sysbench em alguns sistemas OSX
 
-| First Header  | Second Header | Second Header | Second Header | Second Header | Second Header |
-| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Total operations  | Content Cell  | 
-| MiB/sec  | Content Cell  |
-| total time  | Content Cell  |
-| total number of events  | Content Cell  |
-| Latency min  | Content Cell  |
-| Latency avg  | Content Cell  |
-| Latency p95  | Content Cell  |
-| Latency Sum  | Content Cell  |
-| events (avg/stddev)  | Content Cell  |
-| execution time (avg/stddev)  | Content Cell  |
+Resumo testes de memória com config:
+```sysbench memory --memory-block-size=1M --memory-total-size=80G```
+
+* Aparentemente para ter uma melhor idéia da RAMspeed é melhor subir bastante os PARAM dos testes (todo)
+
+
+| Statistic.        | Macbook Air M1 2020                | MacBook PRO 2021 M1 | Macbook PRO 2012 | Ryzentosh     |
+| -------------     | -------------                      | -------------       | -------------    | ------------- |
+| Total operations  | 81920 / 23923.65 per second        | 
+| MiB/sec           | 81920 MiB / 23923.65 MiB/sec       |
+| total time        | 3.4238s                            |
+| total events      | 81920                              |
+| Latency min       | 0.04 ms                            |
+| Latency avg       | 0.04 ms                            |
+| Latency max       | 2.07 ms                            |
+| Latency Sum       | 3417.70 ms                         |
+| execution time    | 3.4177                             |
 
 
 
