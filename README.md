@@ -5,7 +5,15 @@ Alguns testes usando sysbench em alguns sistemas OSX
 | First Header  | Second Header | Second Header | Second Header | Second Header | Second Header |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Total operations  | Content Cell  | 
-| Content Cell  | Content Cell  |
+| MiB/sec  | Content Cell  |
+| total time  | Content Cell  |
+| total number of events  | Content Cell  |
+| Latency min  | Content Cell  |
+| Latency avg  | Content Cell  |
+| Latency p95  | Content Cell  |
+| Latency Sum  | Content Cell  |
+| events (avg/stddev)  | Content Cell  |
+| execution time (avg/stddev)  | Content Cell  |
 
 
 
