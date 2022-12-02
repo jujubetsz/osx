@@ -2,11 +2,8 @@
 
 Alguns testes usando sysbench em alguns sistemas OSX
 
-[Testes de memória]([GitHub Pages](https://pages.github.com/))
-[GitHub Pages](https://pages.github.com/)
-[GitHub Pages](https://pages.github.com/)
-[GitHub Pages](https://pages.github.com/)
-[GitHub Pages](https://pages.github.com/)
+([Testes de memória](https://pages.github.com/))
+
 
 ## Testes de memória
 
